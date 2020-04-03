@@ -2,6 +2,7 @@
   "name": "diagro/zenfactuur",
   "description": "Zenfactuur API",
   "version": "1.0.0-dev",
+  "license": "MIT",
   "authors": [
     {
       "name": "Stijn Leenknegt",
