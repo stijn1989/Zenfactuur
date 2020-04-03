@@ -1,0 +1,24 @@
+{
+  "name": "diagro/zenfactuur",
+  "description": "Zenfactuur API",
+  "version": "1.0.0-dev",
+  "authors": [
+    {
+      "name": "Stijn Leenknegt",
+      "email": "stijn@diagro.be",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "guzzlehttp/guzzle": "6.5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Diagro\\" : "src/"
+    }
+  }
+}
