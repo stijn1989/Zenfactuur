@@ -23,7 +23,6 @@ final class ClientTest extends TestCase
     }
 
 
-
     public function testGetClients(): void
     {
         $client = $this->zenfactuur->client();

@@ -2,6 +2,7 @@
 namespace Diagro;
 
 use Diagro\Zenfactuur\Api\Client;
+use Diagro\Zenfactuur\Api\Invoice;
 
 class Zenfactuur
 {
@@ -30,6 +31,12 @@ class Zenfactuur
     public function client()
     {
         return new Client($this->getToken());
+    }
+
+
+    public function invoice()
+    {
+        return new Invoice($this->getToken());
     }
 
 
